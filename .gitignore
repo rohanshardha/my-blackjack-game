@@ -1,0 +1,19 @@
+
+# Ignore compiled class files
+*.class
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+out/
+
+# Ignore Eclipse files
+*.classpath
+*.project
+.settings/
+
+# Mac system files
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
