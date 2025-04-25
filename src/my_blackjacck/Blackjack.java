@@ -134,7 +134,7 @@ class Blackjack {
             System.out.print("Do you want to play another round? (yes/no): ");
             anotherRound = scanner.nextLine();
 
-        } while (anotherRound.equalsIgnoreCase("yes")&& player.getPotValue() > 10);
+        } while (anotherRound.equalsIgnoreCase("yes")&& player.getPotValue() >= 10);
 
         System.out.println("Thanks for playing, " + player.getName() + "! You won " + wins + " out of " + totalGames + " games and you are leaving with $" + player.getPotValue() + "!");
         scanner.close();
